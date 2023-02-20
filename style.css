@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(30deg,#7fcdea, #ffffff );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+}
+
+.add {  
+  width: 100%;
+  display: flex;
+  padding: 10px 0px;
+}
+
+#uinput{
+  color: #484848;
+  border: none;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.2);  
+}
+
+.add button {
+  margin: 0 10px;
+  background: none;
+  color: #eee;
+  font-size: 1.25rem;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #484848;
+  cursor: pointer;
+}
+
+.pending,
+.completed {
+  flex: 1 1 0%;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+th{
+  padding: 40px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+}
+
+ol {
+  list-style: none;
+  color: white ;
+}
+
+ol li {
+  width: 100%;
+  padding: 18px;
+  margin: 5px 0;
+  background: #484848;
+  font-size: 20px;
+  border-radius: 1rem;
+}
+
+ol.completed li {
+  background: #2e2e2e;
+}
+
+li button {
+  float: right;
+  padding: 5px;
+  padding-top: 0;
+  font-size: 26px;
+  line-height: 28px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #d3d3d3;
+}
